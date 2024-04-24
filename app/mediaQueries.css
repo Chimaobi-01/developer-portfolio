@@ -1,0 +1,63 @@
+@media screen 
+ and (min-device-width:1600px)
+ {
+    body {
+      font-size: 32px;
+    }
+  }
+
+@media screen 
+ and (max-device-width:1024px)
+ {
+    
+    body {
+     font-size: 14px;
+    }
+  }
+  
+
+
+@media screen 
+ and (max-device-width:769px)
+ {
+    
+    body {
+      font-size: 12px;
+    }
+    #banner {
+      width: 93%;
+    }
+    #project {
+      width: 100% !important;
+    }
+    .projects_grid {
+      gap: 5% !important;
+    }
+    #contact {
+      width: 93% !important;
+    }
+  }
+  
+
+
+@media screen 
+ and (max-device-width:425px)
+ {
+    
+    body {
+      background-color: pink;
+      font-size: 11px;
+    }
+    #banner nav {
+     display: none;
+    }
+  }
+@media screen 
+ and (max-device-width:375px)
+ {
+    
+    body {
+      background-color: purple;
+    }
+  }
+  

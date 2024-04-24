@@ -1,0 +1,27 @@
+
+#contact {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.contact_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+input, textarea {
+   border: 1.5px solid gray;
+   display: block;
+   border-radius: 8px;
+   padding: 10px;
+   width: 100%;
+}
+#contact div {
+    display: flex;
+    flex-direction: column;
+}
+#contact label {
+    font-weight: 600;
+    line-height: 2;
+    margin-top: .5em;
+}

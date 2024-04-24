@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url('./fonts/Inter-Bold.woff2') format('woff2'),
+        url('./fonts/Inter-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url('./fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url('./fonts/Inter-Regular.woff2') format('woff2'),
+        url('./fonts/Inter-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 300;
+  src: url('./fonts/Inter-Light.woff2') format('woff2'),
+        url('./fonts/Inter-Light.woff') format('woff');
+}
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+img {
+  max-width: 100%;
+}
+
+.project_cover_img {
+  background-image: url('/images/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
